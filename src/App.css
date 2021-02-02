@@ -1,38 +1,235 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #222831;
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  transition: all 0.25s ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #222831;
+}
+
+body {
+  background-image: linear-gradient(
+      90deg,
+      transparent 9.7%,
+      #fdcb6e 10%,
+      transparent 0
+    ),
+    linear-gradient(#eee 0.2em, transparent 0.2em);
+  background-size: 100% 55px;
+}
+
+#root {
+  /* width: 90%; */
+  margin: auto;
+}
+
+.nav {
+  background-color: #979797;
+}
+.nav ul {
+  margin-left: 10%;
+  font-family: "Londrina Solid", cursive;
+}
+.nav li {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+}
+.nav li a {
+  text-decoration: none;
+}
+
+header .note {
+  transform: rotate(-2deg);
+  padding: 3%;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 2.5rem;
+  width: 70vh;
+  min-width: 300px;
+  margin-left: 10%;
+  margin-top: 22vh;
+  box-shadow: 2px 4px 5px rgb(138, 137, 137);
+  font-family: "Londrina Solid", cursive;
+}
+
+header .note2 {
+  transform: rotate(-2deg);
+  padding: 3vh;
+  border-radius: 50%;
+  background-color: #e26a84;
+  font-size: 2.5rem;
+  width: 20vh;
+  text-align: right;
+  box-shadow: 2px 4px 5px rgb(138, 137, 137);
+  margin-left: 35%;
+  margin-top: -350px;
+  font-family: "Londrina Solid", cursive;
+}
+
+.about {
   text-align: center;
+  font-size: 1.5rem;
+  float: right;
+  width: 30%;
+  font-family: "Caveat", cursive;
+  margin-right: 10%;
+  margin-top: -20vh;
+}
+.about h1 {
+  padding-bottom: 15px;
+  font-family: "Londrina Solid", cursive;
+}
+.about p {
+  line-height: 35px;
+}
+.about p .span1 {
+  color: #979797;
+  font-family: "Londrina Solid", cursive;
+  font-size: 2rem;
+}
+.about p .span2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.tag {
+  background: white;
+  border-radius: 5px;
+  border-bottom-right-radius: 40px;
+  font-family: "Londrina Solid", cursive;
+  color: #222831;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-flex;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.skills h1 {
+  padding-bottom: 15px;
+  font-family: "Londrina Solid", cursive;
+  font-size: 4rem;
+  text-shadow: 1px 1px 3px #666666;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.skills {
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+  margin-top: 60vh;
+  padding: 7vh;
+  background-color: #979797;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skillsWrapper {
+  width: 90%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+}
+.projects {
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+  margin-top: 5vh;
+}
+.projects h1 {
+  font-size: 4rem;
+  text-shadow: 1px 1px 3px #666666;
+  padding: 7vh;
+  margin-bottom: 1vh;
+}
+.projectWrapper {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.projectCard {
+  /* width: 40vh; */
+  /* float: left; */
+  position: relative;
+  width: 40vh;
+  height: 350px;
+  background-color: #fdcb6e;
+  margin-top: 3vh;
+  padding: 3%;
+  border-bottom-right-radius: 50px;
+  box-shadow: 2px 4px 5px rgb(138, 137, 137);
+}
+.projectCard p {
+  font-size: 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 1310px) {
+  header .note {
+    width: 50vh;
   }
-  to {
-    transform: rotate(360deg);
+  .about {
+    width: 40%;
+    margin-top: -30vh;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  header .note {
+    width: 70vh;
+    margin: 22vh auto;
+  }
+  header .note2 {
+    /* width: 20%; */
+    margin-left: 70%;
+    margin-top: -440px;
+  }
+  .about {
+    float: none;
+    margin-right: 0;
+    margin: 65vh 10vh auto;
+    width: 80%;
+  }
+  .skills {
+    margin-top: 10vh;
+  }
+  .skills h1 {
+    font-size: 3rem;
+  }
+  .tag {
+    font-size: 1rem;
+    margin: 10px;
+    padding: 5px 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  header .note {
+    width: 50vh;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .nav ul {
+    margin-left: 0;
+  }
+  .nav li {
+    font-size: 1rem;
   }
 }
