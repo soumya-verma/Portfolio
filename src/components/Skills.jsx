@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <h1>
-        Skills<span className="dot">.</span>
+        Skills<span class="dot">.</span>
       </h1>
       <div className="skillsWrapper">
         <Tag name="HTML/CSS" />

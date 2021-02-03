@@ -46,16 +46,15 @@ body {
 .nav {
   background-color: #979797;
 }
-.nav ul {
+.ul {
   margin-left: 10%;
-  font-family: "Londrina Solid", cursive;
+  /* font-family: "Londrina Solid", cursive; */
+  font-family: "Montserrat", sans-serif;
 }
-.nav li {
+.ul a {
   display: inline-block;
   padding: 1.5rem 2rem;
-  font-size: 1.5rem;
-}
-.nav li a {
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -66,7 +65,7 @@ header .note {
   background-color: #fdcb6e;
   font-size: 2.5rem;
   width: 70vh;
-  min-width: 300px;
+  /* min-width: 300px; */
   margin-left: 10%;
   margin-top: 22vh;
   box-shadow: 2px 4px 5px rgb(138, 137, 137);
@@ -93,16 +92,19 @@ header .note2 {
 .about {
   position: relative;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   float: right;
   width: 30%;
-  font-family: "Caveat", cursive;
+  /* font-family: "Caveat", cursive; */
+  font-family: "Montserrat", sans-serif;
   margin-right: 10%;
-  margin-top: -20vh;
+  margin-top: -22vh;
 }
 .about h1 {
   padding-bottom: 15px;
+  font-size: 3rem;
   font-family: "Londrina Solid", cursive;
+  text-shadow: 1px 1px 3px #666666;
 }
 .about p {
   line-height: 35px;
@@ -113,8 +115,8 @@ header .note2 {
   font-size: 2rem;
 }
 .about p .span2 {
-  font-weight: bold;
-  font-size: 1.5rem;
+  font-weight: 800;
+  font-size: 1rem;
 }
 
 .skills h1 {
@@ -127,7 +129,7 @@ header .note2 {
 .skills {
   font-family: "Londrina Solid", cursive;
   text-align: center;
-  margin-top: 60vh;
+  margin-top: 65vh;
   padding: 7vh;
   background-color: #979797;
 }
@@ -141,12 +143,14 @@ header .note2 {
 .tag {
   background: white;
   border-radius: 5px;
-  border-bottom-right-radius: 40px;
-  font-family: "Londrina Solid", cursive;
+  /* border-bottom-right-radius: 40px; */
+  /* font-family: "Londrina Solid", cursive; */
+  font-family: "Montserrat", sans-serif;
   color: #222831;
   padding: 8px 16px;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
   display: inline-flex;
   margin: 20px;
 }
@@ -171,19 +175,21 @@ header .note2 {
 .projectCard {
   position: relative;
   width: 45vh;
-  height: 390px;
+  height: 350px;
   background-color: #fdcb6e;
+  font-family: "Montserrat", sans-serif;
   margin-top: 4vh;
   padding: 4vh;
   border-bottom-right-radius: 50px;
   box-shadow: 2px 4px 5px rgb(138, 137, 137);
+  /* letter-spacing: 1.2px; */
 }
 .projectCard p {
-  margin-top: 1vh;
+  margin-top: 2vh;
   text-align: justify;
-  font-size: 1.2rem;
-  font-weight: 300;
-  letter-spacing: 1.2px;
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 1.2rem; */
+  font-weight: 500;
 }
 .projectCard i {
   color: #e26a84;
@@ -195,12 +201,7 @@ header .note2 {
   position: absolute;
   right: 1rem;
   bottom: 2vh;
-  /* border-radius: 30px; */
-  /* text-shadow: 1px 2px 3px black; */
   border: none;
-  /* color: #ffffff; */
-  font-size: 20px;
-  /* background: #e26a84; */
   padding: 10px 20px;
   text-decoration: none;
   outline: none;
@@ -241,7 +242,6 @@ header .note2 {
   }
   .about {
     float: none;
-    margin-right: 0;
     margin: 60vh 10vh auto;
     width: 80%;
   }
@@ -274,11 +274,91 @@ header .note2 {
 }
 
 @media only screen and (max-width: 580px) {
-  .nav ul {
-    margin-left: 0;
+  .ul {
+    margin-left: 5%;
   }
-  .nav li {
-    font-size: 1.1rem;
+  .ul a {
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .ul a {
+    font-size: 0.7rem;
     padding: 1rem;
+  }
+  header .note {
+    font-size: 1.7rem;
+    width: 40vh;
+  }
+  header .note2 {
+    font-size: 1.5rem;
+    width: 15vh;
+    margin-top: -400px;
+    margin-left: 63%;
+  }
+  .about {
+    font-size: 0.7rem;
+    margin: auto;
+    margin-top: 50vh;
+  }
+  .about h1 {
+    font-size: 2rem;
+  }
+  .about p {
+    line-height: 25px;
+  }
+  .about p .span1 {
+    font-size: 1.5rem;
+  }
+  .skills {
+    padding: 5vh;
+  }
+  .skillsWrapper {
+    width: 100%;
+  }
+  .skills h1 {
+    font-size: 2rem;
+  }
+  .tag {
+    font-size: 0.6rem;
+    margin: 5px;
+  }
+  .projects {
+    margin-top: 2vh;
+  }
+  .projects h1 {
+    font-size: 2rem;
+    padding: 5vh;
+  }
+  .projectCard {
+    width: 45vh;
+    height: 220px;
+    margin-top: 4vh;
+    padding: 3vh;
+  }
+  /* .projectCard h2 {
+    font-size: 0.5rem;
+  } */
+  .projectCard p {
+    margin-top: 2vh;
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+  .projectCard i {
+    margin-left: 110px;
+    margin-top: -50px;
+  }
+  .projectCard a {
+    right: 1rem;
+    bottom: 2vh;
+    padding: 10px 20px;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    font-size: 1.3rem;
+  }
+  .projectCard a:hover {
+    font-size: 1.5rem;
+    transition: 0.5s;
   }
 }
