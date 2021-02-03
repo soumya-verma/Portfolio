@@ -86,8 +86,12 @@ header .note2 {
   margin-top: -350px;
   font-family: "Londrina Solid", cursive;
 }
+.dot {
+  color: #e26a84;
+}
 
 .about {
+  position: relative;
   text-align: center;
   font-size: 1.5rem;
   float: right;
@@ -112,18 +116,6 @@ header .note2 {
   font-weight: bold;
   font-size: 1.5rem;
 }
-.tag {
-  background: white;
-  border-radius: 5px;
-  border-bottom-right-radius: 40px;
-  font-family: "Londrina Solid", cursive;
-  color: #222831;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  display: inline-flex;
-  margin: 20px;
-}
 
 .skills h1 {
   padding-bottom: 15px;
@@ -146,6 +138,18 @@ header .note2 {
   justify-content: center;
   flex-wrap: wrap;
 }
+.tag {
+  background: white;
+  border-radius: 5px;
+  border-bottom-right-radius: 40px;
+  font-family: "Londrina Solid", cursive;
+  color: #222831;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-flex;
+  margin: 20px;
+}
 .projects {
   font-family: "Londrina Solid", cursive;
   text-align: center;
@@ -155,29 +159,65 @@ header .note2 {
   font-size: 4rem;
   text-shadow: 1px 1px 3px #666666;
   padding: 7vh;
-  margin-bottom: 1vh;
+  /* margin-bottom: 1vh; */
 }
 .projectWrapper {
-  width: 70%;
+  width: 75%;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .projectCard {
-  /* width: 40vh; */
-  /* float: left; */
   position: relative;
-  width: 40vh;
-  height: 350px;
+  width: 45vh;
+  height: 390px;
   background-color: #fdcb6e;
-  margin-top: 3vh;
-  padding: 3%;
+  margin-top: 4vh;
+  padding: 4vh;
   border-bottom-right-radius: 50px;
   box-shadow: 2px 4px 5px rgb(138, 137, 137);
 }
 .projectCard p {
+  margin-top: 1vh;
+  text-align: justify;
   font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+}
+.projectCard i {
+  color: #e26a84;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: -50px;
+}
+.projectCard a {
+  position: absolute;
+  right: 1rem;
+  bottom: 2vh;
+  /* border-radius: 30px; */
+  /* text-shadow: 1px 2px 3px black; */
+  border: none;
+  /* color: #ffffff; */
+  font-size: 20px;
+  /* background: #e26a84; */
+  padding: 10px 20px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Londrina Solid", cursive;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 1px 0 #fcc155, 0 2px 0 #f1ba52, 0 3px 0 #e7b14d,
+    0 4px 0 #e0ad4d, 0 5px 0 #cc9d45, 0 6px 1px rgb(0 0 0 / 10%),
+    0 0 5px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 30%),
+    0 3px 5px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 25%),
+    0 10px 10px rgb(0 0 0 / 20%), 0 20px 20px rgb(0 0 0 / 15%);
+}
+.projectCard a:hover {
+  font-size: 2.2rem;
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 1310px) {
@@ -196,15 +236,17 @@ header .note2 {
     margin: 22vh auto;
   }
   header .note2 {
-    /* width: 20%; */
     margin-left: 70%;
     margin-top: -440px;
   }
   .about {
     float: none;
     margin-right: 0;
-    margin: 65vh 10vh auto;
+    margin: 60vh 10vh auto;
     width: 80%;
+  }
+  .skillsWrapper {
+    width: 100%;
   }
   .skills {
     margin-top: 10vh;
@@ -217,11 +259,17 @@ header .note2 {
     margin: 10px;
     padding: 5px 10px;
   }
+  .projects h1 {
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (max-width: 640px) {
   header .note {
     width: 50vh;
+  }
+  .about {
+    margin: 50vh 10vh auto;
   }
 }
 
@@ -230,6 +278,7 @@ header .note2 {
     margin-left: 0;
   }
   .nav li {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    padding: 1rem;
   }
 }

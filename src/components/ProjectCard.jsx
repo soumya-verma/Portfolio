@@ -3,9 +3,11 @@ import React from "react";
 const ProjectCard = (props) => {
   return (
     <div className="projectCard">
+      <i class="fas fa-check-double fa-3x"></i>
       <h2>{props.name}</h2>
       <p>{props.desc}</p>
-      <button>Visit</button>
+      <br />
+      <a href={props.link}>VISIT</a>
     </div>
   );
 };

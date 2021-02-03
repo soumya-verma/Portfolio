@@ -4,7 +4,9 @@ import Tag from "./Tag";
 const Skills = () => {
   return (
     <div className="skills">
-      <h1>Skills</h1>
+      <h1>
+        Skills<span className="dot">.</span>
+      </h1>
       <div className="skillsWrapper">
         <Tag name="HTML/CSS" />
         <Tag name="JavaScript" />

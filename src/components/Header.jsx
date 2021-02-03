@@ -6,8 +6,8 @@ const Header = () => {
       {/* <img src="image3.png" /> */}
       <div className="note">
         <h1>
-          Hello.
-          <br />I am Soumya.
+          Hello<span className="dot">.</span>
+          <br />I am Soumya<span className="dot">.</span>
         </h1>
       </div>
       <div className="note2">
