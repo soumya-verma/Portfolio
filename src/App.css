@@ -220,10 +220,86 @@ header .note2 {
   transition: 0.5s;
 }
 
+.design {
+  background-color: #979797;
+  text-align: center;
+  padding: 7vh;
+  margin-top: 5vh;
+}
+
+.contact {
+  font-family: "Londrina Solid", cursive;
+  padding: 7vh;
+  /* background-color: #979797; */
+}
+.contactbox {
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  padding: 5vh;
+  /* background-color: lavender; */
+  background-color: white;
+  box-shadow: 2px 4px 5px rgb(138, 137, 137);
+  /* box-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%),
+    0 1px 3px rgb(0 0 0 / 30%), 0 3px 5px rgb(0 0 0 / 20%),
+    0 5px 10px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 20%),
+    0 20px 20px rgb(0 0 0 / 15%); */
+}
+.contact .contactbox form input,
+textarea,
+button {
+  /* border: medium none !important; */
+  margin: 0 0 10px;
+  border-width: 0;
+  border-bottom-width: 2px;
+  border-color: #222831;
+  min-width: 100%;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  display: block;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+.contact button {
+  background-color: #fdcb6e;
+  color: white;
+  font-family: "Londrina Solid", cursive;
+  font-size: 1.7rem;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 10px;
+}
+.contact button:hover {
+  background-color: #fcc155;
+  transition: 0.1s;
+}
+.contactbox form input::placeholder,
+textarea::placeholder {
+  /* color: white; */
+  font-family: "Montserrat", sans-serif;
+}
+.contactbox h2 {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 3px #666666;
+  /* padding: 2vh 7vh 1vh 0; */
+  text-align: left;
+  /* padding-left: 0; */
+  padding-right: 20vh;
+  padding-bottom: 3vh;
+}
+.contactbox img {
+  /* float: right; */
+  width: 40vh;
+  display: block;
+}
+
 .footer {
   text-align: center;
   background-color: #979797;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   padding: 7vh;
   font-family: "Montserrat", sans-serif;
 }
