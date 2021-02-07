@@ -119,19 +119,18 @@ header .note2 {
   font-size: 1rem;
 }
 
-.skills h1 {
-  padding-bottom: 15px;
-  font-family: "Londrina Solid", cursive;
-  font-size: 4rem;
-  text-shadow: 1px 1px 3px #666666;
-}
-
 .skills {
   font-family: "Londrina Solid", cursive;
   text-align: center;
   margin-top: 65vh;
   padding: 7vh;
   background-color: #979797;
+}
+.skills h1 {
+  padding-bottom: 15px;
+  font-family: "Londrina Solid", cursive;
+  font-size: 4rem;
+  text-shadow: 1px 1px 3px #666666;
 }
 .skillsWrapper {
   width: 90%;
@@ -221,6 +220,25 @@ header .note2 {
   transition: 0.5s;
 }
 
+.footer {
+  text-align: center;
+  background-color: #979797;
+  margin-top: 10vh;
+  padding: 7vh;
+  font-family: "Montserrat", sans-serif;
+}
+.icons {
+  display: inline-block;
+  margin: 0 3vh;
+  font-size: 1.7rem;
+}
+.info {
+  /* margin: 2vh; */
+}
+.info p {
+  /* display: inline-block; */
+  margin: 2vh;
+}
 @media only screen and (max-width: 1310px) {
   header .note {
     width: 50vh;
