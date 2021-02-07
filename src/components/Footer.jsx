@@ -13,9 +13,9 @@ const Footer = () => {
         <Icon name="fab fa-github" link="https://github.com/soumya-verma" />
       </div>
       <div class="info">
-        <p>6283333046</p>
+        <p>Phone: 6283333046</p>
         {/* <p>|</p> */}
-        <p>soumya.verma2000@gmail.com</p>
+        <p>Email: soumya.verma2000@gmail.com</p>
       </div>
     </div>
   );

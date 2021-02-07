@@ -9,7 +9,7 @@ const Contact = () => {
           action="https://formsubmit.co/3fcba17ce019626858ba99ef98dd6003"
         >
           <h2>
-            Leave me a message<span class="dot">.</span>
+            Leave a message<span class="dot">.</span>
           </h2>
           <input
             type="text"
@@ -38,12 +38,13 @@ const Contact = () => {
           <button type="submit" class="btn btn-lg btn-dark btn-block">
             SEND
           </button>
-          <input type="hidden" name="_captcha" value="false"></input>
-          {/* <input
-          type="hidden"
-          name="_next"
-          value="https://yourdomain.co/thanks.html"
-        ></input> */}
+          <input type="text" name="_honey" style={{ display: "none" }} />
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://localhost:3000"
+          ></input>
         </form>
         <img src="./contact_image2.png" />
       </div>
