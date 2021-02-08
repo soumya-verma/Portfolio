@@ -408,7 +408,7 @@ textarea::placeholder {
   }
   .about {
     float: none;
-    margin: 60vh 10vh auto;
+    margin: 50vh 10vh auto;
     width: 80%;
   }
   .skillsWrapper {
@@ -544,6 +544,7 @@ textarea::placeholder {
     transition: 0.5s;
   }
   .design {
+    margin-top: 5vh;
     padding: 10vh 0;
   }
   .design h1 {
