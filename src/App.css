@@ -408,7 +408,7 @@ textarea::placeholder {
   }
   .about {
     float: none;
-    margin: 50vh 10vh auto;
+    margin: 50vh auto 10vh;
     width: 80%;
   }
   .skillsWrapper {
