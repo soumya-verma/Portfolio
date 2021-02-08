@@ -41,7 +41,7 @@ const Contact = () => {
           <input type="text" name="_honey" style={{ display: "none" }} />
           <input type="hidden" name="_captcha" value="false" />
         </form>
-        <img src="./contact_image2.png" />
+        <img alt="Send message" src="./contact_image2.png" />
       </div>
     </div>
   );
