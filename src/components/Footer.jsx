@@ -14,7 +14,6 @@ const Footer = () => {
       </div>
       <div class="info">
         <p>Phone: 6283333046</p>
-        {/* <p>|</p> */}
         <p>Email: soumya.verma2000@gmail.com</p>
       </div>
     </div>
