@@ -235,6 +235,7 @@ header .note2 {
 .design h1 {
   font-size: 3rem;
   font-weight: normal;
+  text-shadow: 1px 1px 3px #666666;
 }
 
 .home-title span {
@@ -382,6 +383,7 @@ textarea::placeholder {
   /* display: inline-block; */
   margin: 1vh;
 }
+
 @media only screen and (max-width: 1310px) {
   header .note {
     width: 50vh;
@@ -395,7 +397,6 @@ textarea::placeholder {
     font-size: 1.7rem;
   }
 }
-
 @media only screen and (max-width: 950px) {
   header .note {
     width: 70vh;
@@ -426,6 +427,9 @@ textarea::placeholder {
   }
   .projects h1 {
     font-size: 3rem;
+  }
+  .design h1 {
+    font-size: 2rem;
   }
   .contactbox {
     justify-content: space-around;
@@ -518,9 +522,6 @@ textarea::placeholder {
     margin-top: 4vh;
     padding: 3vh;
   }
-  /* .projectCard h2 {
-    font-size: 0.5rem;
-  } */
   .projectCard p {
     margin-top: 2vh;
     font-weight: 500;
@@ -543,10 +544,10 @@ textarea::placeholder {
     transition: 0.5s;
   }
   .design {
-    padding: 5vh;
+    padding: 10vh 0;
   }
   .design h1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .contactbox h2 {
     font-size: 1.4rem;
