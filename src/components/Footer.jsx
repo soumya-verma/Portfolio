@@ -12,9 +12,9 @@ const Footer = () => {
         />
         <Icon name="fab fa-github" link="https://github.com/soumya-verma" />
       </div>
+      {/* <br /> */}
       <div class="info">
-        <p>Phone: 6283333046</p>
-        <p>Email: soumya.verma2000@gmail.com</p>
+        <p>© Soumya Verma {new Date().getFullYear()}</p>
       </div>
     </div>
   );

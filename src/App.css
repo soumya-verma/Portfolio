@@ -387,10 +387,12 @@ textarea::placeholder {
 @media only screen and (max-width: 1310px) {
   header .note {
     width: 50vh;
+    /* width: 70vh; */
   }
   .about {
     width: 40%;
-    margin-top: -30vh;
+    /* margin-top: -30vh; */
+    margin-top: -20%;
   }
   .contactbox h2 {
     padding-right: 15vh;

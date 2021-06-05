@@ -15,6 +15,7 @@ const Skills = () => {
         <Tag name="ExpressJS" />
         <Tag name="MongoDB" />
         <Tag name="Mongoose" />
+        <Tag name="Redux" />
         <Tag name="MySQL" />
         <Tag name="PHP" />
         <Tag name="C/C++" />

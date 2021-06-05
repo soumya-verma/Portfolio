@@ -9,9 +9,9 @@ const Projects = () => {
       </h1>
       <div className="projectWrapper">
         <ProjectCard
-          name="Faceopedia"
-          desc="An online celebrity finder website with a beautiful front-end created using HTML, CSS and JavaScript which displays information cards of celebrities along with hover effects. Used PHP for back-end and MySQL for managing database. Runs on CNN face recognition algorithm."
-          link="https://github.com/soumya-verma/Faceopedia"
+          name="DevConnect"
+          desc="A social media platform developed on MERN Stack, for developers all around the world to connect and share posts. Used Redux for state management and localStorage for storing user's token. Worked around with Github API to display the users' Github repositories."
+          link="https://infinite-falls-17384.herokuapp.com"
         />
         <ProjectCard
           name="To-Do List"
@@ -19,9 +19,19 @@ const Projects = () => {
           link="https://arcane-waters-66035.herokuapp.com"
         />
         <ProjectCard
+          name="Faceopedia"
+          desc="An online celebrity finder website with a beautiful front-end created using HTML, CSS and JavaScript which displays information cards of celebrities along with hover effects. Used PHP for back-end and MySQL for managing database. Runs on CNN face recognition algorithm."
+          link="https://github.com/soumya-verma/Faceopedia"
+        />
+        <ProjectCard
           name="Couch Potatoes"
           desc="An online furniture buying website. Implemented a fully functional signup, login and logout with validation and authentication using regex. Made using HTML, CSS and JavaScript for front-end, PHP for back-end and MySQL for managing database."
           link="https://github.com/soumya-verma/Couch-Potatoes"
+        />
+        <ProjectCard
+          name="My Portfolio"
+          desc="A portfolio website created using React. Displays all relevant information about myself. Contains a short bio, skills, projects and contact information."
+          link="https://soumyaverma.netlify.app/"
         />
         <ProjectCard
           name="Cab Providing System"
