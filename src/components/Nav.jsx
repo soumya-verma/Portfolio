@@ -4,10 +4,11 @@ const Nav = () => {
   return (
     <div className="nav">
       <div className="ul">
-        <a href="#root">HOME</a>
+        <a href="#top">HOME</a>
         <a href="#projects">PROJECTS</a>
         <a href="#contact">CONTACT</a>
       </div>
+      <hr />
     </div>
   );
 };
