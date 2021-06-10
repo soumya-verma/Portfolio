@@ -8,6 +8,7 @@ const Skills = () => {
         Skills<span class="dot">.</span>
       </h1>
       <div className="skillsWrapper">
+        <Tag name="C/C++" />
         <Tag name="HTML/CSS" />
         <Tag name="JavaScript" />
         <Tag name="ReactJS" />
@@ -16,9 +17,9 @@ const Skills = () => {
         <Tag name="MongoDB" />
         <Tag name="Mongoose" />
         <Tag name="Redux" />
+        <Tag name="EJS" />
         <Tag name="MySQL" />
         <Tag name="PHP" />
-        <Tag name="C/C++" />
         <Tag name="Data Structures" />
         <Tag name="Algorithms" />
         <Tag name="Problem Solving" />
