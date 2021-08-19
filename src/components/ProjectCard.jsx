@@ -7,7 +7,9 @@ const ProjectCard = (props) => {
       <h3>{props.name}</h3>
       <p>{props.desc}</p>
       <br />
-      <a href={props.link}>VISIT</a>
+      <a target="_blank" href={props.link}>
+        VISIT
+      </a>
     </div>
   );
 };

@@ -4,8 +4,8 @@ const Design = () => {
   return (
     <div className="design">
       <h1 class="home-title">
-        <span>It isn't about what you know</span>
-        <span>Its about what you can figure out</span>
+        <span>&nbsp;&nbsp;It isn't about what you know&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;Its about what you can figure out&nbsp;&nbsp;</span>
       </h1>
     </div>
   );

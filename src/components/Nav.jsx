@@ -7,6 +7,12 @@ const Nav = () => {
         <a href="#top">HOME</a>
         <a href="#projects">PROJECTS</a>
         <a href="#contact">CONTACT</a>
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/17FGZRTq_DarCgXkD1ORFDxPLE1G-QzZ0/view?usp=sharing"
+        >
+          RESUME
+        </a>
       </div>
       <hr />
     </div>

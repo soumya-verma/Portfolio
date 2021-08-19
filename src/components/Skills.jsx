@@ -23,6 +23,7 @@ const Skills = () => {
         <Tag name="Data Structures" />
         <Tag name="Algorithms" />
         <Tag name="Problem Solving" />
+        <Tag name="Operating Systems" />
       </div>
     </div>
   );
