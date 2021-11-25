@@ -10,7 +10,7 @@ const Nav = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/17FGZRTq_DarCgXkD1ORFDxPLE1G-QzZ0/view?usp=sharing"
+          href="https://drive.google.com/file/d/1LN3DU-N0NAGNacdoJOkO0CCYgZpIGDNi/view?usp=sharing"
         >
           RESUME
         </a>
